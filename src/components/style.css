@@ -1,0 +1,103 @@
+.search{
+    width: 500px;
+    padding-left:40px ;
+    height: 40px;
+    margin-right: 200px;
+    background-color: darkgray;
+}
+.logo img{
+    width: 30px;
+    margin-right: 20px;
+}
+.isearch img{
+ width: 20px;
+ position: absolute;
+ margin-left: 15px;
+ margin-top: 10px;
+}
+.tombol{
+    width: 100px;
+}
+.sidebar{
+    padding: 10px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.contenttop{
+    margin-top: 60px;
+}
+.profile{
+    margin-top: 130px;
+    margin-left: 20px;
+    width: 150px;
+    position: absolute;
+}
+.ban{
+    position: relative;
+}
+.follow{
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.text{
+    margin-top: 100px;
+}
+
+.text img{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -3px;
+}
+
+.cmnprofile{
+    width: 50px;
+    margin: 10px;
+}
+.comment img{
+    width: 550px;
+}
+.d img{
+    width: 30px;
+}
+.liskom img{
+    width: 30px;
+}
+.modalcnt{
+    padding: 70px;
+}
+.modalcnt img{
+    margin-bottom: 40px;
+}
+.modalcnt p{
+    color: rgb(53, 50, 50);
+    font-size: 14px;
+    margin-bottom: 70px;
+}
+.space img{
+    margin-right: 2px;
+    margin-left: 5px;
+}
+.kotaksidebar{
+    margin-top: 15px;
+}
+.clr{
+    background-color: rgb(116, 116, 119);
+    color: rgb(116, 116, 119);
+}
+.listsidebar img{
+    margin-right: 10px;
+position: absolute;
+}
+.listsidebar1 img{
+    margin-left: 10px;
+position: absolute;
+}
+.listsidebar3 img{
+    margin-left: 10px;
+position: absolute;
+}
+.listsidebar .para{
+    margin-left: 60px;
+}
