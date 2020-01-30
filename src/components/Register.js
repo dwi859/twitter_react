@@ -47,7 +47,7 @@ export default class Register extends Component {
     }
     else{
       alert('Verified!!')
-    this.props.history.push('/login')
+      this.props.history.push('/login')
     }
     })
   }

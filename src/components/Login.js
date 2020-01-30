@@ -5,7 +5,10 @@ import { ButtonContainer } from "./Button";
 import logo from '../logo.svg'
 import { login } from './userFunction';
 import {useAlert} from 'react-alert';
-
+import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
+global.jQuery = $;
 
 export default class Login extends Component {
     constructor(){
@@ -41,7 +44,9 @@ export default class Login extends Component {
             }
         })
     }
-
+    componentDidMount(){
+        $('#exampleModal').modal('hide')
+    }
     
     render() {
         return (

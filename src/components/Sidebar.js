@@ -13,7 +13,7 @@ return (
     <div className="col-md-4">
         <strong className="strong">New to Twitter?</strong><br/>
         <span className="span-small">Sign up now to get your own personalized timeline!</span><br/>
-        <Link to="/login" className="ml-auto">
+        <Link to="/register" className="ml-auto">
             <ButtonContainer3>
                     Sign Up
             </ButtonContainer3>

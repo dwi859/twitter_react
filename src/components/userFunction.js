@@ -23,6 +23,46 @@ export const register = NewUser => {
       })
 }
 
+
+export const comment = NewComment => {
+  return axios
+      .post('/comment', {
+          username : NewComment.username,
+          comment : NewComment.comment1,
+      })
+      .then(response => {
+        console.log(response.data.error)
+          if(response.data.error){
+            return response.data
+          
+          }
+          // return response
+      })
+      .catch(err => {
+        console.log(err)
+      
+    })
+}
+
+export const like = NewLike => {
+  return axios
+      .post('/like', {
+          username : NewLike.username
+      })
+      .then(response => {
+        console.log(response.data.error)
+          if(response.data.error){
+            return response.data
+          
+          }
+          // return response
+      })
+      .catch(err => {
+        console.log(err)
+      
+    })
+}
+
 export const login = user => {
     return axios
         .post('login', {
